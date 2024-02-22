@@ -14,6 +14,7 @@ btns.forEach((btn)=>{
                     screen.innerHTML = `Error`;
                 }
                 else{
+                    str = parseFloat(str).toFixed(6)
                     screen.innerHTML = str;
                 }
             }
